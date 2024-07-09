@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+### PG Links
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório da aplicação PG Links, uma página de links desenvolvida utilizando React, TypeScript, animações com Framer Motion, estilização com Tailwind CSS e configurada com Vite para um desenvolvimento rápido.
 
-Currently, two official plugins are available:
+Você pode acessar a aplicação diretamente pelo link: [PG Links](https://pg-links-livid.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset JavaScript que adiciona tipagem estática ao JavaScript.
+- **Framer Motion**: Biblioteca para criação de animações fluidas em React.
+- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
+- **Vite**: Ferramenta de build rápida para projetos baseados em JavaScript e TypeScript.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- Exibição de links organizados de forma intuitiva.
+- Animações suaves ao interagir com os links.
+- Layout responsivo utilizando classes do Tailwind CSS.
+- Carregamento rápido e eficiente com o Vite.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Como Rodar o Projeto Localmente
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para rodar este projeto localmente, siga os passos abaixo:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/pg-links.git
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   cd pg-links
+   npm install   # ou yarn install
+   ```
+
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev   # ou yarn dev
+   ```
+
+4. **Abra o navegador:**
+   Acesse `(http://localhost:5173/)` para visualizar a aplicação.
+
+### Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
+
+### Deploy
+
+A aplicação está hospedada na Vercel. Para acessar a versão mais recente, visite [PG Links](https://pg-links-livid.vercel.app/).
+
+### Autor
+
+Desenvolvido por [Carlos Eduardo](https://github.com/carlospinellowork).
