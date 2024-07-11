@@ -2,7 +2,7 @@
 
 Este é o repositório da aplicação PG Links, uma página de links desenvolvida utilizando React, TypeScript, animações com Framer Motion, estilização com Tailwind CSS e configurada com Vite para um desenvolvimento rápido.
 
-Você pode acessar a aplicação diretamente pelo link: [PG Links](https://pg-links-livid.vercel.app/)
+Você pode acessar a aplicação diretamente pelo link: [[PG Links](https://pg-cadu-links.vercel.app/)])
 
 ### Tecnologias Utilizadas
 
@@ -48,7 +48,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests c
 
 ### Deploy
 
-A aplicação está hospedada na Vercel. Para acessar a versão mais recente, visite [PG Links](https://pg-links-livid.vercel.app/).
+A aplicação está hospedada na Vercel. Para acessar a versão mais recente, visite [[PG Links](https://pg-cadu-links.vercel.app/)].
 
 ### Autor
 
