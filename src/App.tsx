@@ -28,7 +28,7 @@ function App(): JSX.Element {
   const linksArr: { title: string; url: string; image: string }[] = [
     {
       title: "Github",
-      url: "https://github.com/cadupinello",
+      url: "https://github.com/carlospinellowork",
       image:
         GithubImage ||
         "https://t.ctcdn.com.br/CLoW3JkF4dd6Md31gEAgJL4ayzc=/640x360/smart/i491384.jpeg",
@@ -49,7 +49,7 @@ function App(): JSX.Element {
     },
     {
       title: "Whatsapp",
-      url: "https://wa.me/5595744402",
+      url: "https://wa.me/5511957944402",
       image:
         WhatsappImage ||
         "https://t.ctcdn.com.br/IrsKqx3DEHQFnCGpSVRmzEiXOG0=/1200x675/smart/i541314.jpeg",
