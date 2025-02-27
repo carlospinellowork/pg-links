@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import GithubImage from "./assets/brands/githubimg.jpg";
-import InstagramImage from "./assets/brands/instagramlogo.jpg";
 import LinkedinImage from "./assets/brands/Linkedin-1.jpeg";
 import WhatsappImage from "./assets/brands/whatslogo.jpg";
 import Briefcase from "./assets/icons/briefcase";
@@ -32,13 +31,6 @@ function App(): JSX.Element {
       image:
         GithubImage ||
         "https://t.ctcdn.com.br/CLoW3JkF4dd6Md31gEAgJL4ayzc=/640x360/smart/i491384.jpeg",
-    },
-    {
-      title: "Instagram",
-      url: "https://www.instagram.com/dududucadu",
-      image:
-        InstagramImage ||
-        "https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2019/12/montagens-de-fotos-no-Instagram-Stories.jpg",
     },
     {
       title: "Linkedin",
