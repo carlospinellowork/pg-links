@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import LinksComponents from "./components/linksComponents";
+import { useEffect, useState } from "react";
 import GithubImage from "./assets/brands/githubimg.jpg";
 import InstagramImage from "./assets/brands/instagramlogo.jpg";
 import LinkedinImage from "./assets/brands/Linkedin-1.jpeg";
 import WhatsappImage from "./assets/brands/whatslogo.jpg";
 import Briefcase from "./assets/icons/briefcase";
+import LinksComponents from "./components/linksComponents";
 
 interface UserProps {
   name: string;
@@ -65,25 +65,25 @@ function App(): JSX.Element {
 
   return (
     <>
-      <div className="w-screen h-screen flex flex-col justify-center items-center bg-slate-900">
+      <div className="flex flex-col items-center justify-center w-screen h-screen bg-slate-900">
         <motion.div
-          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex flex-col rounded-md p-4 bg-slate-700"
+          className="flex flex-col w-full max-w-xs p-4 rounded-md sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl bg-slate-700"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 0.5 } }}
           exit={{ opacity: 0 }}
         >
-          <div className="flex flex-col items-center justify-center avatar space-y-2">
-            <div className="w-32 rounded mt-4">
+          <div className="flex flex-col items-center justify-center space-y-2 avatar">
+            <div className="w-32 mt-4 rounded">
               <img src={user?.avatar_url} alt="Avatar" className="rounded" />
             </div>
             <h3 className="text-3xl font-bold text-slate-300">{user?.name}</h3>
-            <p className="text-slate-300 font-bold text-sm">
-              Desenvolvedor Front-end
+            <p className="text-sm font-bold text-slate-300">
+              Desenvolvedor Frontend | Performance, design e inovação.
             </p>
           </div>
           <div className="flex flex-col items-center justify-center mt-4">
             <motion.ul
-              className="w-full flex flex-col gap-2"
+              className="flex flex-col w-full gap-2"
               initial={"hidden"}
               animate={"visible"}
               variants={list}
@@ -102,20 +102,21 @@ function App(): JSX.Element {
             </motion.ul>
           </div>
           <div className="flex flex-col items-center justify-center mt-8">
-            <p className="text-slate-300 font-bold text-sm mb-2">
+            <p className="mb-2 text-sm font-bold text-slate-300">
               Acompanhem meu portfolio
             </p>
             <motion.a
-              href="https://github.com/cadupinello"
+              href="https://portfoliocadu.vercel.app/"
               target="_blank"
-              className="w-full bg-linkRgba h-12 flex items-center justify-center gap-2 text-sm font-semibold text-slate-300 rounded hover:cursor-pointer p-2"
-              whileHover={{ 
-                background: 'rgb(118,131,134)',
-                backgroundImage: 'linear-gradient(90deg, rgba(118,131,134,1) 0%, rgba(47,68,143,1) 100%)',
+              className="flex items-center justify-center w-full h-12 gap-2 p-2 text-sm font-semibold rounded bg-linkRgba text-slate-300 hover:cursor-pointer"
+              whileHover={{
+                background: "rgb(118,131,134)",
+                backgroundImage:
+                  "linear-gradient(90deg, rgba(118,131,134,1) 0%, rgba(47,68,143,1) 100%)",
               }}
             >
-              Em construção do site ...
-             <Briefcase />
+              Carlos Eduardo - Portfólio
+              <Briefcase />
             </motion.a>
           </div>
         </motion.div>
